@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Retro Game Randomizer (JSON)</title>
+<style>
+body {background:#111;color:#0f0;font-family:Arial;text-align:center;padding:20px;}
+select,button {padding:10px;margin:10px;font-size:16px;}
+.result {margin-top:20px;font-size:1.5em;color:white;}
+</style>
+</head>
+<body>
+
+<h1>🎮 Retro Game Randomizer</h1>
+
+<label>Genre:</label>
+<select id="genre">
+<option value="any">Any</option>
+<option value="platformer">Platformer</option>
+<option value="rpg">RPG</option>
+<option value="shooter">Shooter</option>
+<option value="action">Action</option>
+<option value="puzzle">Puzzle</option>
+<option value="racing">Racing</option>
+<option value="fighting">Fighting</option>
+</select>
+
+<label>Console:</label>
+<select id="console">
+<option value="any">Any</option>
+<option>NES</option>
+<option>SNES</option>
+<option>Genesis</option>
+<option>Game Boy</option>
+<option>N64</option>
+<option>PS1</option>
+<option>Arcade</option>
+<option>Various</option>
+</select>
+
+<br>
+<button onclick="pick()">🎲 Pick Game</button>
+
+<div class="result" id="result"></div>
+
+<script>
+let games = [];
+
+fetch("games.json")
+.then(res => res.json())
+.then(data => { games = data; });
+
+function pick(){
+ const genre = document.getElementById("genre").value;
+ const consoleSel = document.getElementById("console").value;
+
+ const filtered = games.filter(g =>
+   (genre==="any"||g.genre===genre) &&
+   (consoleSel==="any"||g.console===consoleSel)
+ );
+
+ if(filtered.length===0){
+   document.getElementById("result").innerText="No matches";
+   return;
+ }
+
+ const g = filtered[Math.floor(Math.random()*filtered.length)];
+ document.getElementById("result").innerText =
+   g.title + " (" + g.console + ", " + g.genre + ")";
+}
+</script>
+
+</body>
+</html>

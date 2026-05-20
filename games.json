@@ -1,0 +1,292 @@
+[
+  {
+    "title": "Super Mario Bros",
+    "genre": "platformer",
+    "console": "NES"
+  },
+  {
+    "title": "Super Mario Bros 3",
+    "genre": "platformer",
+    "console": "NES"
+  },
+  {
+    "title": "The Legend of Zelda",
+    "genre": "action",
+    "console": "NES"
+  },
+  {
+    "title": "Metroid",
+    "genre": "action",
+    "console": "NES"
+  },
+  {
+    "title": "Mega Man 2",
+    "genre": "platformer",
+    "console": "NES"
+  },
+  {
+    "title": "Castlevania",
+    "genre": "platformer",
+    "console": "NES"
+  },
+  {
+    "title": "Contra",
+    "genre": "shooter",
+    "console": "NES"
+  },
+  {
+    "title": "Final Fantasy",
+    "genre": "rpg",
+    "console": "NES"
+  },
+  {
+    "title": "Super Mario World",
+    "genre": "platformer",
+    "console": "SNES"
+  },
+  {
+    "title": "Chrono Trigger",
+    "genre": "rpg",
+    "console": "SNES"
+  },
+  {
+    "title": "Super Metroid",
+    "genre": "action",
+    "console": "SNES"
+  },
+  {
+    "title": "Donkey Kong Country",
+    "genre": "platformer",
+    "console": "SNES"
+  },
+  {
+    "title": "Street Fighter II",
+    "genre": "fighting",
+    "console": "SNES"
+  },
+  {
+    "title": "F-Zero",
+    "genre": "racing",
+    "console": "SNES"
+  },
+  {
+    "title": "EarthBound",
+    "genre": "rpg",
+    "console": "SNES"
+  },
+  {
+    "title": "Sonic the Hedgehog",
+    "genre": "platformer",
+    "console": "Genesis"
+  },
+  {
+    "title": "Sonic the Hedgehog 2",
+    "genre": "platformer",
+    "console": "Genesis"
+  },
+  {
+    "title": "Streets of Rage",
+    "genre": "action",
+    "console": "Genesis"
+  },
+  {
+    "title": "Golden Axe",
+    "genre": "action",
+    "console": "Genesis"
+  },
+  {
+    "title": "Gunstar Heroes",
+    "genre": "shooter",
+    "console": "Genesis"
+  },
+  {
+    "title": "Phantasy Star IV",
+    "genre": "rpg",
+    "console": "Genesis"
+  },
+  {
+    "title": "Tetris",
+    "genre": "puzzle",
+    "console": "Game Boy"
+  },
+  {
+    "title": "Pokemon Red",
+    "genre": "rpg",
+    "console": "Game Boy"
+  },
+  {
+    "title": "Pokemon Blue",
+    "genre": "rpg",
+    "console": "Game Boy"
+  },
+  {
+    "title": "Super Mario Land",
+    "genre": "platformer",
+    "console": "Game Boy"
+  },
+  {
+    "title": "Kirby's Dream Land",
+    "genre": "platformer",
+    "console": "Game Boy"
+  },
+  {
+    "title": "Super Mario 64",
+    "genre": "platformer",
+    "console": "N64"
+  },
+  {
+    "title": "Ocarina of Time",
+    "genre": "rpg",
+    "console": "N64"
+  },
+  {
+    "title": "GoldenEye 007",
+    "genre": "shooter",
+    "console": "N64"
+  },
+  {
+    "title": "Mario Kart 64",
+    "genre": "racing",
+    "console": "N64"
+  },
+  {
+    "title": "Star Fox 64",
+    "genre": "shooter",
+    "console": "N64"
+  },
+  {
+    "title": "Final Fantasy VII",
+    "genre": "rpg",
+    "console": "PS1"
+  },
+  {
+    "title": "Metal Gear Solid",
+    "genre": "action",
+    "console": "PS1"
+  },
+  {
+    "title": "Crash Bandicoot",
+    "genre": "platformer",
+    "console": "PS1"
+  },
+  {
+    "title": "Tekken 3",
+    "genre": "fighting",
+    "console": "PS1"
+  },
+  {
+    "title": "Gran Turismo",
+    "genre": "racing",
+    "console": "PS1"
+  },
+  {
+    "title": "Pac-Man",
+    "genre": "action",
+    "console": "Arcade"
+  },
+  {
+    "title": "Galaga",
+    "genre": "shooter",
+    "console": "Arcade"
+  },
+  {
+    "title": "Donkey Kong",
+    "genre": "platformer",
+    "console": "Arcade"
+  },
+  {
+    "title": "Street Fighter II",
+    "genre": "fighting",
+    "console": "Arcade"
+  },
+  {
+    "title": "Banjo-Kazooie",
+    "genre": "action",
+    "console": "Various"
+  },
+  {
+    "title": "Spyro the Dragon",
+    "genre": "action",
+    "console": "Various"
+  },
+  {
+    "title": "Resident Evil",
+    "genre": "action",
+    "console": "Various"
+  },
+  {
+    "title": "Resident Evil 2",
+    "genre": "action",
+    "console": "Various"
+  },
+  {
+    "title": "Silent Hill",
+    "genre": "action",
+    "console": "Various"
+  },
+  {
+    "title": "Mega Man X",
+    "genre": "action",
+    "console": "Various"
+  },
+  {
+    "title": "Mega Man X2",
+    "genre": "action",
+    "console": "Various"
+  },
+  {
+    "title": "Kirby Super Star",
+    "genre": "action",
+    "console": "Various"
+  },
+  {
+    "title": "Yoshi's Island",
+    "genre": "action",
+    "console": "Various"
+  },
+  {
+    "title": "Paper Mario",
+    "genre": "action",
+    "console": "Various"
+  },
+  {
+    "title": "Perfect Dark",
+    "genre": "action",
+    "console": "Various"
+  },
+  {
+    "title": "Diddy Kong Racing",
+    "genre": "action",
+    "console": "Various"
+  },
+  {
+    "title": "ToeJam & Earl",
+    "genre": "action",
+    "console": "Various"
+  },
+  {
+    "title": "Vectorman",
+    "genre": "action",
+    "console": "Various"
+  },
+  {
+    "title": "Ecco the Dolphin",
+    "genre": "action",
+    "console": "Various"
+  },
+  {
+    "title": "Wario Land",
+    "genre": "action",
+    "console": "Various"
+  },
+  {
+    "title": "Metroid II",
+    "genre": "action",
+    "console": "Various"
+  },
+  {
+    "title": "Dr. Mario",
+    "genre": "action",
+    "console": "Various"
+  }
+]
